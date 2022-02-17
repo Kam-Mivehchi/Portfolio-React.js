@@ -8,45 +8,47 @@ const leftBox = "rounded-l-3xl rounded-r-lg border-4 border-red-400  "
 const rightBox = "rounded-r-3xl rounded-l-lg border-4 border-red-400   "
 
 
-export default function () {
-    return (
-        <div className="  flex mx-auto w-1/2">
-            <div className="mt-32   gap-2 grid grid-cols-3">
+function Gallery() {
 
-                <div className=" col-span-2 ">
+
+    return (
+        <div className="flex flex-col justify-end  ">
+            <div className="  w-4/6  mx-auto     grid grid-cols-2 gap-3 auto-rows-max">
+
+                <div className="  ">
                     <img className={leftBox} src={typeGIF} alt="" />
                 </div>
-                <div className={rightBox} id="right-box-style">
+                <div className={rightBox, "hidden hover:flex"} id="right-box-style">
                     <h2 id="title">Project Title</h2>
                     <p id="desc"></p>
                     <a href="" id="git-link">Github</a>
                     <a href="" id="deploy-link">Live Site</a>
                 </div>
-                <div className={leftBox} id="right-box-style">
+                <div className={leftBox, "hidden"} id="right-box-style">
                     <h2 id="title">Project Title</h2>
                     <p id="desc"></p>
                     <a href="" id="git-link">Github</a>
                     <a href="" id="deploy-link">Live Site</a>
                 </div>
-                <div className="col-span-2">
+                <div className="">
                     <img className={rightBox} src={workoutGIF} alt="" />
                 </div>
-                <div className="col-span-2">
+                <div className="">
                     <img className={leftBox} src={weatherGIF} alt="" />
                 </div>
-                <div className={rightBox} id="right-box-style">
+                <div className={rightBox, "hidden"} id="right-box-style">
                     <h2 id="title">Project Title</h2>
                     <p id="desc"></p>
                     <a href="" id="git-link">Github</a>
                     <a href="" id="deploy-link">Live Site</a>
                 </div>
-                <div className={leftBox} id="right-box-style">
+                <div className={leftBox, "hidden"} id="right-box-style">
                     <h2 id="title">Project Title</h2>
                     <p id="desc"></p>
                     <a href="" id="git-link">Github</a>
                     <a href="" id="deploy-link">Live Site</a>
                 </div>
-                <div className="col-span-2">
+                <div className="">
                     <img className={rightBox} src={noteGIF} alt="" />
                 </div>
 
@@ -55,3 +57,5 @@ export default function () {
 
     );
 }
+
+export default Gallery;

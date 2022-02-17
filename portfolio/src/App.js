@@ -8,9 +8,13 @@ import Hero from './components/hero';
 
 function App() {
   return (
+    <main className=''>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
 
-    <Navbar />
-
+    </main>
 
 
   )
