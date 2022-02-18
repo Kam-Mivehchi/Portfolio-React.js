@@ -10,11 +10,12 @@ const rightBox = "rounded-r-3xl rounded-l-lg border-4 border-red-400   "
 
 function Gallery() {
 
+    const headingStyles = "text-4xl font-bold mx-auto mb-4  py-4 border-b-2 border-black "
 
     return (
-        <div className="flex flex-col justify-end  ">
+        <div className="flex flex-col justify-  ">
+            <h1 className={headingStyles}>Projects</h1>
             <div className="  w-4/6  mx-auto     grid grid-cols-2 gap-3 auto-rows-max">
-
                 <div className="  ">
                     <img className={leftBox} src={typeGIF} alt="" />
                 </div>
