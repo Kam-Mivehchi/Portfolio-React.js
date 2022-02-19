@@ -1,8 +1,13 @@
 import Headshot from '../assets/headshot-formal-blur-zoom.png'
+import Mongo from '../assets/mongo.png'
+import Node from '../assets/node.png'
+import Express from "../assets/express.png"
 export default {
     nav: {
-        logo: 'KM',
+        logo: 'Kamyar Mivehchi',
         links: [
+            { text: 'Stack', to: 'stack' },
+            { text: 'About', to: 'about' },
             { text: 'Project', to: 'mywork' },
             { text: 'Resume', to: 'myResume' },
             { text: 'Contact', to: 'mycontact' },
@@ -19,8 +24,7 @@ export default {
             2000,
             'Chemist. ',
             2000,
-            'Problem Solver.',
-            2000,
+
         ],
         btnText: 'Discover',
     },
@@ -29,7 +33,7 @@ export default {
         title: 'Stack',
         tech: [
             {
-                img: process.env.PUBLIC_URL + '/assets/mongo.png',
+                img: `${Mongo}`,
                 alt: 'mongodb',
             },
             {
@@ -37,11 +41,11 @@ export default {
                 alt: 'react',
             },
             {
-                img: process.env.PUBLIC_URL + '/assets/express.png',
+                img: `${Express}`,
                 alt: 'express',
             },
             {
-                img: process.env.PUBLIC_URL + '/assets/node.png',
+                img: `${Node}`,
                 alt: 'node',
             },
         ],

@@ -1,15 +1,15 @@
 import React from 'react';
 // import headshot from './headshot-formal-blur.jpg'
 
-const paragraphStyles = "text-md  w-2/3    border-black  "
+const paragraphStyles = "w-8/12 md:min-w-xl text-xl text-center mx-auto  mt-10  "
 
-const headingStyles = "text-4xl font-bold   py-4 border-b-2 border-black "
+const headingStyles = "text-5xl font-bold   py-4 border-b-2 border-black  "
 
 function About() {
     return (
 
 
-        <div className='h-screen w-fit mx-auto  overflow-y-auto  ' id=''>
+        <div className='h-screen w-fit mx-auto  overflow-y-auto   ' id='about'>
             {/* <img className="scale-[10%]  " src={headshot}></img> */}
             <div className=" flex flex-col   items-center ">
 

@@ -3,23 +3,7 @@ import React, { useState, useEffect } from "react";
 
 
 function Hero() {
-    // const [count, setCount] = useState(1);
-    // const [jobs, setJobs] = useState("Chemist")
-    // const roles = ["Chemist.", "Full Stack Web Developer.", "Problem-Solver."]
 
-
-
-
-    // const handleClick = () => {
-    //     //set jobs to a different state in the array
-    //     setCount(count + 1);
-    //     if (count === roles.length - 1) {
-    //         setCount(0);
-    //     }
-    //     setJobs(roles[count]);
-    //     console.log(count, roles[count])
-
-    // }
 
     return (
         <div className="h-screen  bg-red-300 flex flex-col ">
@@ -32,7 +16,7 @@ function Hero() {
 
 
                 </div>
-                <div className="button border rounded-full bg-blue-400 p-2" type="button"  >This button</div>
+                <div className="button border rounded-full bg-blue-400 p-2" type="button">This button</div>
 
             </div>
             <div className="mx-auto  my-auto border">
