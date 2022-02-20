@@ -23,8 +23,8 @@
     - Project Gallery
     - Animations
  
- -Styled with Tailwindcss
- -Links to Github, linkedin and Email
+ - Styled with Tailwindcss
+ - Links to Github, linkedin and Email
    
  ## Screenshots
 ![Animation](https://user-images.githubusercontent.com/90432404/154829032-524a1c5d-b822-42af-aad3-954dcbbd46ed.gif)
