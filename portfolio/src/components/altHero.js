@@ -6,7 +6,7 @@ import Button from './button';
 import { Link as ScrollLink } from 'react-scroll'
 const altHero = () => {
     return (
-        <div className=' '>
+        <div className=' ' >
             <div className="flex flex-col  min-h-screen md:flex-row-reverse items-center justify-evenly md:justify-between w-10/12 mx-auto   ">
                 <div className="w-full md:w-2/5  ">
 
@@ -15,16 +15,16 @@ const altHero = () => {
                 <div className="flex flex-col text-center items-center mb-12 md:items-start">
 
 
-                    <h2 className="text-4xl md:text-5xlfont-bold ">{content.header.text}</h2>
+                    <h2 className="text-4xl md:text-5xl font-extrabold ">{content.header.text}</h2>
                     <Typical
                         steps={content.header.typical}
                         loop={Infinity}
                         wrapper="h2"
-                        className="text-2xl  "
+                        className="text-2xl font-semibold"
                     />
                     <ScrollLink to="stack" smooth={true}>
 
-                        <Button className={'bg-blue-500 px-4 py-1 rounded-full '} text={content.header.btnText} />
+                        <Button className={'bg-blue-500 px-4 py-1 rounded-full font-medium'} text={content.header.btnText} />
                     </ScrollLink>
 
                 </div>

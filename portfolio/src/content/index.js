@@ -5,6 +5,7 @@ import Express from "../assets/express.png"
 export default {
     nav: {
         logo: 'Kamyar Mivehchi',
+        logoSmall: 'KM',
         links: [
             { text: 'Stack', to: 'stack' },
             { text: 'About', to: 'about' },

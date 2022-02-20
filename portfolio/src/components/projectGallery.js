@@ -4,18 +4,18 @@ import typeGIF from '../assets/typing-demo (1).gif';
 import workoutGIF from '../assets/WokoutWiz.gif';
 import weatherGIF from '../assets/weatherDash.gif';
 
-const leftBox = "rounded-l-3xl rounded-r-lg border-4 border-red-400  "
-const rightBox = "rounded-r-3xl rounded-l-lg border-4 border-red-400   "
+const leftBox = "rounded-l-3xl rounded-r-lg border-4 border-red-400 shadow-lg "
+const rightBox = "rounded-r-3xl rounded-l-lg border-4 border-red-400  shadow-lg "
 
 
 function Gallery() {
 
-    const headingStyles = "text-4xl font-bold mx-auto mb-4  py-4 border-b-2 border-black "
+    const headingStyles = "text-5xl font-extrabold mx-auto mb-4  py-4 "
 
     return (
-        <div className="flex flex-col justify-  ">
+        <div className="flex flex-col pb-10  ">
             <h1 className={headingStyles}>Projects</h1>
-            <div className="  w-4/6  mx-auto     grid grid-cols-2 gap-3 auto-rows-max">
+            <div className="  w-4/6  mx-auto     grid grid-cols-2 gap-10 auto-rows-max">
                 <div className="  ">
                     <img className={leftBox} src={typeGIF} alt="" />
                 </div>
