@@ -27,8 +27,9 @@
    
  ## Screenshots
 ![Animation](https://user-images.githubusercontent.com/90432404/154829032-524a1c5d-b822-42af-aad3-954dcbbd46ed.gif)
-![image](https://user-images.githubusercontent.com/90432404/154829020-c001da24-f083-48f5-b186-c9f748c77d4f.png)![image](https://user-images.githubusercontent.com/90432404/154829029-a0f13a0e-fb8b-477d-a089-8ed537d6427e.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/90432404/154829020-c001da24-f083-48f5-b186-c9f748c77d4f.png)
+![image](https://user-images.githubusercontent.com/90432404/154829029-a0f13a0e-fb8b-477d-a089-8ed537d6427e.png)
+
 
 
 ## License 
