@@ -24,7 +24,7 @@ const altHero = () => {
                     />
                     <ScrollLink to="stack" smooth={true}>
 
-                        <Button className={'bg-blue-500 px-4 py-1 rounded-full font-medium'} text={content.header.btnText} />
+                        <Button className={'bg-blue-400 px-4 py-1 rounded-full font-medium'} text={content.header.btnText} />
                     </ScrollLink>
 
                 </div>

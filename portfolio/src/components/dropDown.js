@@ -19,7 +19,7 @@ const DropDown = (props) => {
 
     return (
         <div className="relative inline-block text-left">
-            <div>
+            <div className="text-blue-400">
 
                 <Hamburger toggled={isOpen} easing="ease-in" toggle={setOpen} hideOutline={true} onToggle={(toggled, e) => {
                     if (toggled) {
