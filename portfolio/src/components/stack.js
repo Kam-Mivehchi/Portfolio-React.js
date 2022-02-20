@@ -9,7 +9,7 @@ const Stack = () => {
             <div className='py-2'>
 
                 <div className='flex flex-wrap justify-center  '>{content.stack.tech.map((tech, index) => {
-                    return (<span className='w-40 h-40 bg-white  outline outline-offset-4 outline-2 shadow-2xl m-2 rounded-full flex items-center p-5  '>
+                    return (<span className='w-40 h-40 bg-slate-200 outline outline-offset-4 outline-3 outline-blue-300 shadow-2xl m-2 rounded-full flex items-center p-5  '>
                         <LazyLoadImage src={tech.img} alt={tech.alt} />
                     </span>);
                 })}

@@ -5,6 +5,7 @@ import Projects from './components/projectGallery'
 import Navigation from "./components/Navigation";
 import AltHero from "./components/altHero"
 import Stack from './components/stack';
+import Footer from './components/footer';
 function App() {
   return (
     <main className='bg-blue-100'>
@@ -15,7 +16,7 @@ function App() {
       {/* <Hero /> */}
       <About />
       <Projects />
-      {/* to do add footer */}
+      <Footer />
     </main>
 
 

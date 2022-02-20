@@ -4,9 +4,8 @@ import typeGIF from '../assets/typing-demo (1).gif';
 import workoutGIF from '../assets/WokoutWiz.gif';
 import weatherGIF from '../assets/weatherDash.gif';
 
-const leftBox = "rounded-l-3xl rounded-r-lg border-4 border-red-400 shadow-lg "
-const rightBox = "rounded-r-3xl rounded-l-lg border-4 border-red-400  shadow-lg "
-
+const leftBox = "rounded-xl border-4 border-blue-300 p-1 shadow-lg "
+const rightBox = "rounded-xl border-4 border-blue-300 p-1  shadow-lg "
 
 function Gallery() {
 
