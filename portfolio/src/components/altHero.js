@@ -4,13 +4,14 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Typical from 'react-typical'
 import Button from './button';
 import { Link as ScrollLink } from 'react-scroll'
+
 const altHero = () => {
     return (
         <div className=' ' >
             <div className="flex flex-col  min-h-screen md:flex-row-reverse items-center justify-evenly md:justify-between w-10/12 mx-auto   ">
                 <div className="w-full md:w-2/5  ">
-
-                    <LazyLoadImage src={content.header.imgPlaceholder} className=' h-128 object-cover  ' />
+                    <img src={content.header.imgPlaceholder} className=' shadow-2xl  outline-blue-300 rounded-full bg-blue-400  outline outline-offset-4 outline-8  ' alt="" />
+                    {/* <LazyLoadImage src={content.header.imgPlaceholder} className='object-cover  ' /> */}
                 </div>
                 <div className="flex flex-col text-center items-center mb-12 md:items-start ">
 
@@ -25,10 +26,10 @@ const altHero = () => {
                     <div className='flex'>
 
                         <ScrollLink to="project" smooth={true}>
-                            <Button className={'bg-blue-400 px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 '} text={'Projects'} />
+                            <Button className={'bg-blue-400 px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 shadow-2xl'} text={'Projects'} />
                         </ScrollLink>
                         <ScrollLink to="about" smooth={true}>
-                            <Button className={'bg-blue-400 px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1'} text={'Learn More...'} />
+                            <Button className={'bg-blue-400 px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 shadow-2xl'} text={'Learn More...'} />
                         </ScrollLink>
 
                     </div>
