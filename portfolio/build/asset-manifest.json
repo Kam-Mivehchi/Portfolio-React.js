@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03042a87.css",
+    "main.js": "/static/js/main.75f90786.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/WokoutWiz.gif": "/static/media/WokoutWiz.fbb62c8076f7670f24b1.gif",
+    "static/media/headshot-formal-blur-zoom.png": "/static/media/headshot-formal-blur-zoom.510862319f5cdc718a10.png",
+    "static/media/typing-demo (1).gif": "/static/media/typing-demo (1).cf31644d628a36d1f4fa.gif",
+    "static/media/NoteTaker.gif": "/static/media/NoteTaker.5cbd4317d550c0a048a9.gif",
+    "static/media/weatherDash.gif": "/static/media/weatherDash.07cd12847f6da7c8f479.gif",
+    "static/media/express.png": "/static/media/express.915b89629a5fefdb6ca0.png",
+    "static/media/Kamyar_Mivehchi_Resume.pdf": "/static/media/Kamyar_Mivehchi_Resume.5a97abd5dcfe3dd32b43.pdf",
+    "static/media/node.png": "/static/media/node.c580880cda32187e07e1.png",
+    "static/media/mongo.png": "/static/media/mongo.91f15241e98fa5f1a61d.png",
+    "index.html": "/index.html",
+    "main.03042a87.css.map": "/static/css/main.03042a87.css.map",
+    "main.75f90786.js.map": "/static/js/main.75f90786.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03042a87.css",
+    "static/js/main.75f90786.js"
+  ]
+}
