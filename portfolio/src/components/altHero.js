@@ -12,21 +12,26 @@ const altHero = () => {
 
                     <LazyLoadImage src={content.header.imgPlaceholder} className=' h-128 object-cover  ' />
                 </div>
-                <div className="flex flex-col text-center items-center mb-12 md:items-start">
+                <div className="flex flex-col text-center items-center mb-12 md:items-start ">
 
 
-                    <h2 className="text-4xl md:text-5xl font-extrabold ">{content.header.text}</h2>
+                    <h2 className="text-4xl md:text-5xl font-extrabold my-2 ">{content.header.text}</h2>
                     <Typical
                         steps={content.header.typical}
                         loop={Infinity}
                         wrapper="h2"
-                        className="text-2xl font-semibold"
+                        className="text-2xl font-semibold my-2"
                     />
-                    <ScrollLink to="stack" smooth={true}>
+                    <div className='flex'>
 
-                        <Button className={'bg-blue-400 px-4 py-1 rounded-full font-medium'} text={content.header.btnText} />
-                    </ScrollLink>
+                        <ScrollLink to="project" smooth={true}>
+                            <Button className={'bg-blue-400 px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 '} text={'Projects'} />
+                        </ScrollLink>
+                        <ScrollLink to="about" smooth={true}>
+                            <Button className={'bg-blue-400 px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1'} text={'Learn More...'} />
+                        </ScrollLink>
 
+                    </div>
                 </div>
             </div>
 
