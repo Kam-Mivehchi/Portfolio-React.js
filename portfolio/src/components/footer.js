@@ -2,9 +2,9 @@ import React from 'react'
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <div className='pb-2 bg-blue-400' id='footer'>
+        <div className={`pb-2 ${props.background}`} id='footer'>
             <div className="flex justify-center items-center ">
                 <div className='text-6xl text-blue-200 mx-4'><a href="mailto:kammivehchi@gmail.com" target='_blank'
                     rel="noopener noreferrer">
@@ -20,7 +20,7 @@ const Footer = () => {
                 </a>
                 </div>
             </div>
-            <p className='flex justify-center text-blue-300'>Kamyar Mivechi © 2020</p>
+            <p className='flex justify-center text-blue-300'>Kamyar Mivehchi © 2020</p>
 
         </div>
     )

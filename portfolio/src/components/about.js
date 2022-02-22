@@ -1,23 +1,22 @@
 import React from 'react';
 // import headshot from './headshot-formal-blur.jpg'
 
-const paragraphStyles = "w-8/12 md:min-w-xl text-xl font-medium text-center mx-auto py-2  md:text-2xl"
+const paragraphStyles = "w-8/12 md:min-w-xl text-xl  font-medium text-center mx-auto py-2  md:text-2xl"
 
-const headingStyles = "text-5xl font-extrabold   py-4   "
+const headingStyles = "text-5xl font-extrabold py-4 "
 
-function About() {
+function About(props) {
     return (
 
 
-        <div className='h-screen w-fit mx-auto  overflow-y-auto   ' id='about'>
+        <div className={`h-screen w-fit mx-auto  overflow-y-auto ${props.background} `} id='about'>
             {/* <img className="scale-[10%]  " src={headshot}></img> */}
-            <div className=" flex flex-col   items-center ">
+            <div className=" flex flex-col   items-center l">
 
-                <h1 className={headingStyles}>About</h1>
+                <h1 className={`${headingStyles} + ${props.titleColor}`}>About</h1>
 
-                <p className={paragraphStyles}>
+                <p className={`${paragraphStyles} + ${props.paragraphStyle}`}>
                     Proven research professional with experience in the development of cleaning chemicals and semiconductor growth. As an R&D Analytical Chemist for Shepard Bros Inc, I optimized several quality control processes to improve accuracy and precision of titrations substantially. Additionally, I lead efforts to resolve customers cleaning issues by developing 2 new products. In this role, I quickly adapted to the industry and was formulating new products within 6 months.
-
                     Orange County Native, with a passion for learning new skills and developing problem solving strategies that will optimize your business. Currently learning JavaScript, SQL, HTML, CSS and MERN through a full stack web development boot camp from UC Irvine.
                     <br />
                     <br />
@@ -29,7 +28,7 @@ function About() {
                 </p>
 
             </div>
-        </div>
+        </div >
 
 
     );
