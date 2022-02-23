@@ -4,17 +4,15 @@ import content from '../content';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Button from './button';
 
-const leftBox = "rounded-xl border-4 border-blue-300 p-1 shadow-lg "
-const rightBox = "rounded-xl border-4 border-blue-300 p-1  shadow-lg "
 
 function Gallery(props) {
 
-    const headingStyles = "text-5xl font-extrabold mx-auto mb-4  py-4 "
+
 
     return (
 
-        <div className={`min-h-screen flex flex-col items-center justify-center ${props.pageBackground}`} id='project'>
-            <h1 className='text-5xl font-extrabold py-4 '>{content.project.title} </h1>
+        <div className={`min-h-screen flex flex-col items-center justify-center pt-10 ${props.pageBackground}`} id='project'>
+            <h1 className={`text-5xl font-extrabold py-4 ${props.title}`}>{content.project.title} </h1>
             <div className='py-2'>
 
                 <div className='flex flex-col pb-10 w-5/6 md:w-1/2  mx-auto  '>{content.project.data.map((tech, index) => {

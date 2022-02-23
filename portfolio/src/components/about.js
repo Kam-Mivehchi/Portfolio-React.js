@@ -9,7 +9,7 @@ function About(props) {
     return (
 
 
-        <div className={`h-screen w-fit mx-auto  overflow-y-auto ${props.background} `} id='about'>
+        <div className={`mt- w-fit mx-auto  overflow-y-auto ${props.background} `} id='about'>
             {/* <img className="scale-[10%]  " src={headshot}></img> */}
             <div className=" flex flex-col   items-center l">
 
