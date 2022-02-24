@@ -7,7 +7,9 @@ import AltHero from "./components/altHero"
 import Stack from './components/stack';
 import Footer from './components/footer';
 import Resume from './components/resume';
-import Contact from './components/contact'
+import Contact from './components/contact';
+import { CSSTransitionGroup } from 'react-transition-group';
+
 function App() {
   const [currentPage, setCurrentPage] = useState('altHero')
 
@@ -51,13 +53,16 @@ function App() {
     <main className='bg-wave bg-cover '>
 
       <Navigation textColor='text-accentd ' setCurrentPage={setCurrentPage} />
+
       {renderPage(currentPage)}
-      {/* <AltHero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75' buttonColor2='bg-accentd/60 ' animateColor='text-accentd' />
-      <Stack background='bg-stacked-wave bg-cover' textColor='text-primaryd' tileStyle='bg-light-blue text-light-blue' />
-      <About background='bg-primaryd' titleColor='text-accentd' paragraphStyle='text-light-blue' />
-      <Projects title="text-accentd" pageBackground='bg-blurry bg-cover' cardBG='bg-secondaryd' buttonColor1='bg-light-blue/75' buttonColor2='bg-accentd ' projTitle='text-accentd' descColor='text-light-blue' /> */}
+
+
       <Footer background='bg-primaryd opacity ' iconColor='text-accentd/50' />
     </main>
+    /* <AltHero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75' buttonColor2='bg-accentd/60 ' animateColor='text-accentd' />
+    <Stack background='bg-stacked-wave bg-cover' textColor='text-primaryd' tileStyle='bg-light-blue text-light-blue' />
+    <About background='bg-primaryd' titleColor='text-accentd' paragraphStyle='text-light-blue' />
+    <Projects title="text-accentd" pageBackground='bg-blurry bg-cover' cardBG='bg-secondaryd' buttonColor1='bg-light-blue/75' buttonColor2='bg-accentd ' projTitle='text-accentd' descColor='text-light-blue' /> */
 
 
   )

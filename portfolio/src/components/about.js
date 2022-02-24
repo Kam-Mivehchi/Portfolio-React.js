@@ -16,15 +16,14 @@ function About(props) {
                 <h1 className={`${headingStyles} + ${props.titleColor}`}>About</h1>
 
                 <p className={`${paragraphStyles} + ${props.paragraphStyle}`}>
+                    R&D Analytical Chemist with experience in product development and process improvement. Seeking a web
+                    development position in need of an experienced problem solver with great communication skills. Possesses a B.S. in
+                    Chemistry and is adaptable, collaborative and motivated to learn. Earning a certificate in Full Stack Web development
+                    from the University of California, Irvine to support this career transition
+                    <br />
+
                     Proven research professional with experience in the development of cleaning chemicals and semiconductor growth. As an R&D Analytical Chemist for Shepard Bros Inc, I optimized several quality control processes to improve accuracy and precision of titrations substantially. Additionally, I lead efforts to resolve customers cleaning issues by developing 2 new products. In this role, I quickly adapted to the industry and was formulating new products within 6 months.
                     Orange County Native, with a passion for learning new skills and developing problem solving strategies that will optimize your business. Currently learning JavaScript, SQL, HTML, CSS and MERN through a full stack web development boot camp from UC Irvine.
-                    <br />
-                    <br />
-                    As for my future, I hope to work as a product/software developer for a role that can utilize my Chemistry and R&D background. Additionally, I’m interested in opportunities that utilize modern technology to optimize laboratory and quality control processes.
-
-
-
-                    Bachelor of Science in Chemistry from UC Riverside. Soon to be graduate of Full Stack Web Development Bootcamp (Mar. 2022)
                 </p>
 
             </div>
