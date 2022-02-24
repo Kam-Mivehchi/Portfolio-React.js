@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='min-h-screen flex flex-col items-center justify-center'>
+        <div className='min-h-screen  flex flex-col items-center justify-center'>
             <h1 className={`text-light-blue text-6xl font-black `}>Contact me</h1>
             <form action="mailto:kammivehci@gmail.com" method='POST' encType='multipart/form-data' name='EmailForm' className={`text-accentd font-bold text-3xl`}>
                 Name:<br></br>

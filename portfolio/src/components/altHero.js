@@ -10,7 +10,7 @@ const altHero = (props) => {
         <div className='' >
             <div className="flex flex-col  min-h-screen md:flex-row-reverse items-center justify-evenly md:justify-between w-10/12 mx-auto">
                 <div className="w-full md:w-2/5  ">
-                    <img src={content.header.imgPlaceholder} className={`shadow-2xl  outline-${props.outlineColor} rounded-full   outline outline-offset-4 outline-8`} alt="" />
+                    <img src={content.header.imgPlaceholder} className={`shadow-2xl  rounded-full   `} alt="" />
                     {/* <LazyLoadImage src={content.header.imgPlaceholder} className='object-cover  ' /> */}
                 </div>
                 <div className="flex flex-col text-center items-center mb-12 md:items-start ">
