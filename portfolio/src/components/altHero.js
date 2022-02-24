@@ -25,12 +25,14 @@ const altHero = (props) => {
                     />
                     <div className='flex'>
 
-                        <ScrollLink to="project" smooth={true}>
+                        <div onClick={() => props.setCurrentPage('project')}>
                             <Button className={`${props.buttonColor} px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 shadow-2xl`} text={'Projects'} />
-                        </ScrollLink>
-                        <ScrollLink to="about" smooth={true}>
+                        </div>
+
+                        <div onClick={() => props.setCurrentPage('about')}>
                             <Button className={`${props.buttonColor2} px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 shadow-2xl`} text={'Learn More...'} />
-                        </ScrollLink>
+                        </div>
+
 
                     </div>
                 </div>

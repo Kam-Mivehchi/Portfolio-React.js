@@ -13,7 +13,7 @@ function App() {
 
   function renderPage(state) {
     if (state === 'altHero') {
-      return (<AltHero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75 hover:bg-light-blue/25  ' buttonColor2='bg-accentd/60 hover:bg-accentd/25' animateColor='text-accentd' />
+      return (<AltHero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75 hover:bg-light-blue/25  ' buttonColor2='bg-accentd/60 hover:bg-accentd/25' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
       )
     }
     if (state === 'about') {
