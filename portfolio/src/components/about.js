@@ -9,9 +9,9 @@ function About(props) {
     return (
 
 
-        <div className={`mt- w-fit mx-auto  overflow-y-auto ${props.background} `} id='about'>
+        <div className={` w-fit mx-auto  overflow-y-auto ${props.background} mt-20`} id='about'>
             {/* <img className="scale-[10%]  " src={headshot}></img> */}
-            <div className=" flex flex-col   items-center l">
+            <div className=" flex flex-col   items-center ">
 
                 <h1 className={`${headingStyles} + ${props.titleColor}`}>About</h1>
 

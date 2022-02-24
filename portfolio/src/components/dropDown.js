@@ -20,8 +20,8 @@ const DropDown = (props) => {
 
 
     return (
-        <div className="relative inline-block text-left ">
-            <div className="">
+        <div className="relative md:hidden inline-block text-left ">
+            <div className="hover:bg-light-blue/25 rounded-lg">
 
                 <Hamburger toggled={isOpen} easing="ease-in" toggle={setOpen} hideOutline={true} onToggle={(toggled, e) => {
                     if (toggled) {
@@ -37,22 +37,22 @@ const DropDown = (props) => {
 
 
 
-                        <ScrollLink to={content.nav.links[0].to} smooth={true}>
-                            <a href="#" className="  block px-4 py-2 text-base" role="menuitem" tabindex="-1" id="menu-item-0">{content.nav.links[0].text}</a>
-                        </ScrollLink>
 
-                        <ScrollLink to={content.nav.links[1].to} smooth={true}>
-                            <a href="#" className="  block px-4 py-2 text-base" role="menuitem" tabindex="-1" id="menu-item-0">{content.nav.links[1].text}</a>
-                        </ScrollLink>
-                        <ScrollLink to={content.nav.links[2].to} smooth={true}>
-                            <a href="#" className="  block px-4 py-2 text-base" role="menuitem" tabindex="-1" id="menu-item-0">{content.nav.links[2].text}</a>
-                        </ScrollLink>
+                        <a href="#" className="  block px-4 py-2 text-base hover:bg-light-blue/25" role="menuitem" tabindex="-1" id="menu-item-0" onClick={() => props.setCurrentPage('about')}>{content.nav.links[0].text}</a>
 
-                        <a href={Resume} target='_blank' rel="noopener noreferrer" className="  block px-4 py-2 text-base" role="menuitem" tabindex="-1" id="menu-item-1">{content.nav.links[3].text}</a>
 
-                        <ScrollLink to={'footer'}>
-                            <a href="#" className="  block px-4 py-2 text-base" role="menuitem" tabindex="-1" id="menu-item-2">{content.nav.links[4].text}</a>
-                        </ScrollLink>
+
+                        <a href="#" className="  block px-4 py-2 text-base hover:bg-light-blue/25" role="menuitem" tabindex="-1" id="menu-item-0" onClick={() => props.setCurrentPage('project')}>{content.nav.links[1].text}</a>
+
+
+                        <a href="#" className="  block px-4 py-2 text-base hover:bg-light-blue/25" role="menuitem" tabindex="-1" id="menu-item-0" onClick={() => props.setCurrentPage('resume')}>{content.nav.links[2].text}</a>
+
+
+                        <a target='_blank' rel="noopener noreferrer " className=" hover:bg-light-blue/25 block px-4 py-2 text-base" role="menuitem" tabindex="-1" id="menu-item-1" onClick={() => props.setCurrentPage('contact')}>{content.nav.links[3].text}</a>
+
+
+
+
 
 
                     </div>

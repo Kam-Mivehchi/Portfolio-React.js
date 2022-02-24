@@ -12,11 +12,10 @@ export default {
         logo: 'Kamyar Mivehchi',
         logoSmall: 'KM',
         links: [
-            { text: 'Stack', to: 'stack' },
-            { text: 'About', to: 'about' },
-            { text: 'Project', to: 'mywork' },
-            { text: 'Resume', to: 'myResume' },
-            { text: 'Contact', to: 'mycontact' },
+            { text: 'About' },
+            { text: 'Projects' },
+            { text: 'Skills' },
+            { text: 'Contact' },
         ],
     },
     header: {
@@ -94,6 +93,37 @@ export default {
                 tech: ["JavaScript", "HTML", 'CSS'],
             }
         ]
+    },
+    resume: {
+        cat1: 'Chemical',
+        cat2: 'Programming',
+        skills: {
+            programming: ["JavaScript",
+                "MongoDB",
+                "SQL",
+                "HTML",
+                "Node.js",
+                "Progressive Web Development",
+                "Cascading Style Sheets(CSS)",
+                "Adobe Illustrator",
+                "Adobe Photoshop",
+
+            ],
+            chemical: [
+                "ICP/AES",
+                "FTIR/RAMAN",
+                "Research and Development (R&D)",
+                "Quality Control",
+                "Analytical Skills",
+                "Method Development",
+                "Microsoft Suite",
+                "AutoCAD"
+
+
+            ]
+
+
+        }
     }
 
 };

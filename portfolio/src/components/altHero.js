@@ -7,7 +7,7 @@ import { Link as ScrollLink } from 'react-scroll'
 
 const altHero = (props) => {
     return (
-        <div className='bg-wave bg-cover ' >
+        <div className='' >
             <div className="flex flex-col  min-h-screen md:flex-row-reverse items-center justify-evenly md:justify-between w-10/12 mx-auto">
                 <div className="w-full md:w-2/5  ">
                     <img src={content.header.imgPlaceholder} className={`shadow-2xl  outline-${props.outlineColor} rounded-full   outline outline-offset-4 outline-8`} alt="" />
