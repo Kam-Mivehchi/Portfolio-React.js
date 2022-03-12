@@ -11,7 +11,7 @@ function Gallery(props) {
 
     return (
 
-        <div className={`min-h-screen flex flex-col items-center justify-center mt-20 ${props.pageBackground}`} id='project'>
+        <div className={`min-h-screen flex flex-col items-center justify-center pt-20 ${props.pageBackground}`} id='project'>
             <h1 className={`text-5xl font-extrabold py-4 ${props.title}`}>{content.project.title} </h1>
             <div className='py-2'>
 

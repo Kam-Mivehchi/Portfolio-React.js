@@ -50,11 +50,12 @@ function App() {
     }
   }
   return (
-    <main className='bg-wave bg-cover '>
+    <main className=' '>
 
-      <Navigation textColor='text-accentd ' setCurrentPage={setCurrentPage} />
-
-      {renderPage(currentPage)}
+      <Navigation textColor='text-accentd ' divbg='bg-secondaryd' setCurrentPage={setCurrentPage} />
+      <div className="bg-wave bg-cover ">
+        {renderPage(currentPage)}
+      </div>
 
 
       <Footer background='bg-primaryd opacity ' iconColor='text-accentd/50' />
