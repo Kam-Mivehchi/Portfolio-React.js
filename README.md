@@ -13,15 +13,16 @@
  
  
  ## Description
- - Single Page React application
- - Multi-Page Portfolio which features...
+ - Multi-Page Portfolio which features:
     - Hero
     - Navigation
     - Tech Stack
     - Resume
     - About
+    - State Management
     - Project Gallery
     - Animations
+ - 
  - Styled with Tailwindcss
  - Links to Github, linkedin and Email
    
