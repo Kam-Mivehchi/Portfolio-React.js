@@ -13,22 +13,24 @@
  
  
  ## Description
- - Single Page React application
- - Multi-Page Portfolio which features...
+ - Multi-Page Portfolio which features:
     - Hero
     - Navigation
     - Tech Stack
     - Resume
     - About
+    - State Management
     - Project Gallery
     - Animations
  - Styled with Tailwindcss
  - Links to Github, linkedin and Email
    
  ## Screenshots
-![Animation](https://user-images.githubusercontent.com/90432404/154829032-524a1c5d-b822-42af-aad3-954dcbbd46ed.gif)
-![image](https://user-images.githubusercontent.com/90432404/154829020-c001da24-f083-48f5-b186-c9f748c77d4f.png)
-![image](https://user-images.githubusercontent.com/90432404/154829029-a0f13a0e-fb8b-477d-a089-8ed537d6427e.png)
+![portfolio](https://user-images.githubusercontent.com/90432404/158003777-8bf2775d-5055-4542-a86d-455b70dd2882.gif)
+![image](https://user-images.githubusercontent.com/90432404/158003818-33e86766-64c2-4d9e-8730-c6d50539b5f2.png)
+![image](https://user-images.githubusercontent.com/90432404/158003822-ed570483-3197-4831-beae-6ec0248d825a.png)
+
+![image](https://user-images.githubusercontent.com/90432404/158003829-9e8ef5da-2dc6-4843-9b9a-528c2d7edd32.png)
 
 
 
