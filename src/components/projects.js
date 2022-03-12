@@ -27,9 +27,9 @@ function Gallery(props) {
                                     <h2 id="title" className={`text-2xl font-semibold ${props.projTitle}`}>{tech.title}</h2>
                                     <div className="flex m-2 justify-center flex-wrap ">
                                         <a href={tech.git} target='_blank'
-                                            rel="noopener noreferrer" id="git-link"><Button className={`w-24 bg-blue-400 px-4 py-1 rounded-full font-medium mx-2 text-lg ${props.buttonColor1}`} text={'Github'} /></a>
+                                            rel="noopener noreferrer" id="git-link"><Button className={`w-32 bg-blue-400 px-4 py-1 rounded-full font-medium mx-2 text-lg ${props.buttonColor1}`} text={'Github'} /></a>
                                         <a href={tech.live} target='_blank'
-                                            rel="noopener noreferrer" id="deploy-link"><Button className={`w-24  bg-blue-400 px-4 py-1 rounded-full font-medium mx-2 text-lg flex-fit ${props.buttonColor2}`} text={'Live Site'} /></a>
+                                            rel="noopener noreferrer" id="deploy-link"><Button className={`w-32  bg-blue-400 px-4 py-1 rounded-full font-medium mx-2 text-lg flex-fit ${props.buttonColor2}`} text={'Live Site'} /></a>
                                     </div>
                                 </div>
                                 <p id="desc " className={`text-lg ${props.descColor}`}>{tech.desc}</p>

@@ -18,16 +18,23 @@ module.exports = {
     },
     backgroundImage: {
       'wave': "url('./assets/layered-waves-haikei.svg')",
-      'menu-wave': "url('./assets/wave-haikeiright.svg')",
       'stacked-wave': "url('./assets/stacked-waves-haikei.svg')",
-      'blurry': "url('./assets/blob-scene-haikei.svg')",
+      'stackedLight': "url('./assets/stackedLight.svg')",
+      'waveLight': "url('./assets/layered-light.svg')"
     },
     colors: {
       'primaryd': '#041C32',
       'secondaryd': '#04293A',
       'tertiaryd': '#064663',
       'accentd': '#ECB365',
-      'light-blue': '#DBEAFE'
+      'light-blue': '#DBEAFE',
+      'primaryl': '#CCD1E4',
+      'secondaryl': '#CCF2F4',
+      'tertiaryl': '#A4EBF3',
+      'accentl': '#616161',
+      "black": '#000000',
+      "lilac": '#5463FF',
+      "white": '#FFFFFF'
     },
   },
   plugins: [

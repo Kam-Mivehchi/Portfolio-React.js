@@ -26,11 +26,11 @@ const Hero = (props) => {
                     <div className='flex'>
 
                         <div onClick={() => props.setCurrentPage('project')}>
-                            <Button className={`${props.buttonColor} px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 shadow-2xl`} text={'Projects'} />
+                            <Button className={`${props.buttonColor} px-4 py-1 rounded-full text-xl font-black my-2 w-40 mx-1 shadow-2xl`} text={'Projects'} />
                         </div>
 
                         <div onClick={() => props.setCurrentPage('about')}>
-                            <Button className={`${props.buttonColor2} px-4 py-1 rounded-full text-xl font-medium my-2 w-40 mx-1 shadow-2xl`} text={'Learn More...'} />
+                            <Button className={`${props.buttonColor2} px-4 py-1 rounded-full text-xl font-black my-2 w-40 mx-1 shadow-2xl`} text={'Learn More...'} />
                         </div>
 
 

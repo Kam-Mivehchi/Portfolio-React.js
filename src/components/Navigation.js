@@ -17,20 +17,21 @@ const Navbar = (props) => {
                 <DropDown setCurrentPage={props.setCurrentPage} />
                 {/* <bigNav /> */}
                 <div className="hidden md:flex items-center space-x-4 ">
+
                     <button>
-                        <h1 className='text-accentd text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('about')}>About</h1>
+                        <h1 className='text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('about')}>About</h1>
 
                     </button>
                     <button>
-                        <h1 className='text-accentd text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('project')}>Projects</h1>
+                        <h1 className='text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('project')}>Projects</h1>
 
                     </button>
                     <button>
-                        <h1 className='text-accentd text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('resume')}>Resume</h1>
+                        <h1 className='text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('resume')}>Resume</h1>
 
                     </button>
                     <button>
-                        <h1 className='text-accentd text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('contact')}>Contact</h1>
+                        <h1 className='text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2' onClick={() => props.setCurrentPage('contact')}>Contact</h1>
 
                     </button>
 
