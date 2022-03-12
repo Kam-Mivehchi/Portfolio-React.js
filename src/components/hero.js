@@ -1,11 +1,11 @@
 import React from 'react'
 import content from '../content'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+// import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Typical from 'react-typical'
 import Button from './button';
-import { Link as ScrollLink } from 'react-scroll'
+// import { Link as ScrollLink } from 'react-scroll'
 
-const altHero = (props) => {
+const Hero = (props) => {
     return (
         <div className='' >
             <div className="flex flex-col  min-h-screen md:flex-row-reverse items-center justify-evenly md:justify-between w-10/12 mx-auto">
@@ -44,4 +44,4 @@ const altHero = (props) => {
     )
 }
 
-export default altHero
+export default Hero

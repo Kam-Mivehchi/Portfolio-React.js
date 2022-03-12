@@ -1,23 +1,20 @@
 import { useState } from 'react'
-import { GiHamburgerMenu } from 'react-icons/gi'
+
 import { Squash as Hamburger, Squeeze } from 'hamburger-react'
 import content from '../content';
-import { Link as ScrollLink } from 'react-scroll'
 
-import Resume from '../assets/Kamyar_Mivehchi_Resume.pdf'
 const DropDown = (props) => {
-    // const menuToggle = () => {
 
-    //     document.getElementById("myDropdown").classList.remove("hidden");
-
-    // }
 
 
 
 
     const [isOpen, setOpen] = useState(false)
 
-
+    function closeMenu() {
+        setOpen(false)
+        document.getElementById("myDropdown").classList.add("hidden");
+    }
 
     return (
         <div className="relative md:hidden inline-block text-left ">
@@ -32,8 +29,8 @@ const DropDown = (props) => {
 
                 }} />
 
-                <div id="myDropdown" className="origin-top-right  absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-menu-wave ring-1 ring-black ring-opacity-5 focus:outline-none hidden" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                    <div className="py-1 text-xl" role="none">
+                <div id="myDropdown" className="origin-top-right  absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-menu-wave ring-1 ring-black ring-opacity-5 focus:outline-none hidden" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1" onClick={closeMenu}>
+                    <div className="py-1 text-xl" role="none "  >
 
 
 

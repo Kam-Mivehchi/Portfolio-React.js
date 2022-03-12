@@ -1,21 +1,26 @@
 import './App.css';
 import About from './components/about';
-import Projects from './components/projectGallery'
-import { useState } from 'react';
+import Projects from './components/projects'
+import { useState, useEffect } from 'react';
 import Navigation from "./components/Navigation";
-import AltHero from "./components/altHero"
+import Hero from "./components/hero"
 import Stack from './components/stack';
 import Footer from './components/footer';
 import Resume from './components/resume';
 import Contact from './components/contact';
-import { CSSTransitionGroup } from 'react-transition-group';
+
+
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('altHero')
+  const [currentPage, setCurrentPage] = useState('hero')
 
+  // useEffect(() => {
+  //   document.getElementById('myDropdown').classList.add("hidden")
+  //   setOpen = false
+  // }, [currentPage])
   function renderPage(state) {
-    if (state === 'altHero') {
-      return (<AltHero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75 hover:bg-light-blue/25  ' buttonColor2='bg-accentd/60 hover:bg-accentd/25' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
+    if (state === 'hero') {
+      return (<Hero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75 hover:bg-light-blue/25  ' buttonColor2='bg-accentd/60 hover:bg-accentd/25' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
       )
     }
     if (state === 'about') {
@@ -50,6 +55,7 @@ function App() {
     }
   }
   return (
+
     <main className=' '>
 
       <Navigation textColor='text-accentd ' divbg='bg-secondaryd' setCurrentPage={setCurrentPage} />
@@ -60,7 +66,7 @@ function App() {
 
       <Footer background='bg-primaryd opacity ' iconColor='text-accentd/50' />
     </main>
-    /* <AltHero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75' buttonColor2='bg-accentd/60 ' animateColor='text-accentd' />
+    /* <Hero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75' buttonColor2='bg-accentd/60 ' animateColor='text-accentd' />
     <Stack background='bg-stacked-wave bg-cover' textColor='text-primaryd' tileStyle='bg-light-blue text-light-blue' />
     <About background='bg-primaryd' titleColor='text-accentd' paragraphStyle='text-light-blue' />
     <Projects title="text-accentd" pageBackground='bg-blurry bg-cover' cardBG='bg-secondaryd' buttonColor1='bg-light-blue/75' buttonColor2='bg-accentd ' projTitle='text-accentd' descColor='text-light-blue' /> */
