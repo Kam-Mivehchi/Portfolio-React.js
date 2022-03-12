@@ -9,10 +9,10 @@ const Navbar = (props) => {
     return (
         <div className={props.divbg}>
             <div className={`flex justify-between items-center text-md w-5/6 mx-auto pt-1  font-extrabold  + ${props.textColor}`}>
-                <a  >
-                    <h1 className='text-3xl hover:text-light-blue/25  rounded-lg px-2 ' style={{ cursor: 'pointer' }} onClick={() => props.setCurrentPage('hero')} >{content.nav.logoSmall}</h1>
 
-                </a>
+                <h1 className='text-3xl hover:text-light-blue/25  rounded-lg px-2 ' style={{ cursor: 'pointer' }} onClick={() => props.setCurrentPage('hero')} >{content.nav.logoSmall}</h1>
+
+
                 {/* mobile nav */}
                 <DropDown setCurrentPage={props.setCurrentPage} />
                 {/* <bigNav /> */}

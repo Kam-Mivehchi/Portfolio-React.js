@@ -7,7 +7,7 @@ import typeGIF from '../assets/typing-demo (1).gif';
 import workoutGIF from '../assets/WokoutWiz.gif';
 import weatherGIF from '../assets/weatherDash.gif';
 
-export default {
+const content = {
     nav: {
         logo: 'Kamyar Mivehchi',
         logoSmall: 'KM',
@@ -127,3 +127,5 @@ export default {
     }
 
 };
+
+export default content;
