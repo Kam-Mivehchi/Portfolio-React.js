@@ -22,7 +22,6 @@
     - State Management
     - Project Gallery
     - Animations
- - 
  - Styled with Tailwindcss
  - Links to Github, linkedin and Email
    
