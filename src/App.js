@@ -20,7 +20,7 @@ function App() {
   // }, [currentPage])
   function renderPage(state) {
     if (state === 'hero') {
-      return (<Hero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/75 hover:bg-light-blue/25  ' buttonColor2='bg-accentd/60 hover:bg-accentd/25' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
+      return (<Hero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue/90 hover:bg-light-blue/50  ' buttonColor2='bg-accentd/90 hover:bg-accentd/50' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
       )
     }
     if (state === 'about') {
@@ -34,7 +34,7 @@ function App() {
     }
     if (state === 'project') {
       return (
-        <Projects title="text-accentd" pageBackground='' cardBG='bg-tertiaryd' buttonColor1='bg-light-blue/75' buttonColor2='bg-accentd ' projTitle='text-accentd' descColor='text-light-blue' />
+        <Projects title="text-accentd" pageBackground='' cardBG='bg-tertiaryd' buttonColor1='bg-light-blue/90 hover:bg-light-blue/50' buttonColor2='bg-accentd/90 hover:bg-accentd/50 ' projTitle='text-accentd' descColor='text-light-blue' />
 
 
       )
