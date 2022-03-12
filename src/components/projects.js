@@ -1,7 +1,7 @@
 import React from 'react';
 
 import content from '../content';
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+// import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Button from './button';
 
 

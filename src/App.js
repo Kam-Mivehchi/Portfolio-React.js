@@ -1,7 +1,7 @@
 import './App.css';
 import About from './components/about';
 import Projects from './components/projects'
-import { useState, useEffect } from 'react';
+import { useState, } from 'react';
 import Navigation from "./components/Navigation";
 import Hero from "./components/hero"
 import Stack from './components/stack';
