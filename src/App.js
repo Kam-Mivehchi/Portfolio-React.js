@@ -71,7 +71,7 @@ function App() {
       </div>
 
 
-      <Footer background={`  ${theme === 'dark' ? 'bg-primaryd' : 'bg-primaryl'} `} iconColor={theme === 'dark' ? 'text-accentd/50' : 'text-lilac/50'} />
+      <Footer background={`  ${theme === 'dark' ? 'bg-primaryd text-accentd/50' : 'bg-primaryl text-lilac/50'} `} />
     </main>
 
 

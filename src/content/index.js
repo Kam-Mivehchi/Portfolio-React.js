@@ -80,7 +80,7 @@ const content = {
                 title: 'Weather Dashboard',
                 img: `${weatherGIF}`,
                 git: 'https://github.com/Kam-Mivehchi/Weather-Dashboard',
-                live: 'https://runaariga.github.io/Weather-Dashboard/',
+                live: 'https://kam-mivehchi.github.io/Weather-Dashboard/',
                 desc: "Weather Dashboard is a sleek and responsive solution to recive weather information from around the world.This application allows user input(string input or button preset) to change the forecast to reflect their desired location.Weather data is updated dynamically with the use of Open Weather API and JavaScript.",
                 tech: ["JavaScript", "HTML", 'CSS'],
             },
