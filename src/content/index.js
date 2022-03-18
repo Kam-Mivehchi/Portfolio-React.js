@@ -6,7 +6,7 @@ import noteGIF from '../assets/NoteTaker.gif';
 import typeGIF from '../assets/typing-demo (1).gif';
 import workoutGIF from '../assets/WokoutWiz.gif';
 import weatherGIF from '../assets/weatherDash.gif';
-
+import bangerGIF from '../assets/bangeralert.gif'
 const content = {
     nav: {
         logo: 'Kamyar Mivehchi',
@@ -61,12 +61,20 @@ const content = {
         title: 'Projects',
         data: [
             {
+                title: 'BangerAlert',
+                img: `${bangerGIF}`,
+                git: 'https://github.com/Kam-Mivehchi/BangerAlert---Spotify-Companion',
+                live: 'https://banger-alert-redux.herokuapp.com/',
+                desc: "BangerAlert is a Spotify Companion App that hosts a new wrapper and displays lyrics to sing along with. The application uses the Spotify API to provide a simple interface to enhance the listening experience.",
+                tech: ["React", "JavaScript ", 'Bootstrap', 'CSS', 'Express', 'Spotify Web API'],
+            },
+            {
                 title: 'Type{Scripts}',
                 img: `${typeGIF}`,
                 git: 'https://github.com/Kam-Mivehchi/TypeScripts',
                 live: 'https://typescripts-btc.herokuapp.com/',
                 desc: "Type{Scripts} is a typing game for all developers, new and experienced alike where users are able to see their typing skills when typing code.We noticed that a lot of the typing quizes or games didn't offer developer modes where you can type code instead of randomwords and sentences and sought to provide a solution in the form of Typescripts. This being our very first full stack development project, we learned a lot about technical skills and socialskills when working in a team.",
-                tech: ["JavaScript", "Handlebars", 'CSS'],
+                tech: ["JavaScript", "Handlebars", 'CSS', 'Bootstrap'],
             },
             {
                 title: 'Workout Wizard',

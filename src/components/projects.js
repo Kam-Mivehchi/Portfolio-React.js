@@ -33,6 +33,10 @@ function Gallery(props) {
                                     </div>
                                 </div>
                                 <p id="desc " className={`text-lg ${props.descColor}`}>{tech.desc}</p>
+                                <div className="">
+
+                                    <p id="desc " className={`text-lg flex my-2 ${props.projTitle}`}>{tech.tech.map(n => <p className={`mx-2`}>{n}</p>)} </p>
+                                </div>
                             </div>
 
                         </div>
