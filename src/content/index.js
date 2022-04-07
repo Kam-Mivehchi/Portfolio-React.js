@@ -7,6 +7,7 @@ import typeGIF from '../assets/typing-demo (1).gif';
 import workoutGIF from '../assets/WokoutWiz.gif';
 import weatherGIF from '../assets/weatherDash.gif';
 import bangerGIF from '../assets/bangeralert.gif'
+import Type2GIF from '../assets/TypeScripts.gif'
 const content = {
     nav: {
         logo: 'Kamyar Mivehchi',
@@ -61,6 +62,15 @@ const content = {
         title: 'Projects',
         data: [
             {
+                //use this desc size as template no longer
+                title: 'TypeScripts 2.0',
+                img: `${Type2GIF}`,
+                git: 'https://github.com/Kam-Mivehchi/TypeScripts2-FrontEnd',
+                live: 'https://typescripts-react.herokuapp.com/',
+                desc: "TypeScripts 2.0 is a typing game for all developers, new and experienced alike where users are able to see their typing skills. TypeScripts 2.0 features a refactored React front-end connected to the original database",
+                tech: ["React", "JavaScript ", 'TailwindCSS', 'CSS', 'Express', 'mySQL', 'Axios'],
+            },
+            {
                 title: 'BangerAlert',
                 img: `${bangerGIF}`,
                 git: 'https://github.com/Kam-Mivehchi/BangerAlert---Spotify-Companion',
@@ -73,7 +83,7 @@ const content = {
                 img: `${typeGIF}`,
                 git: 'https://github.com/Kam-Mivehchi/TypeScripts',
                 live: 'https://typescripts-btc.herokuapp.com/',
-                desc: "Type{Scripts} is a typing game for all developers, new and experienced alike where users are able to see their typing skills when typing code.We noticed that a lot of the typing quizes or games didn't offer developer modes where you can type code instead of randomwords and sentences and sought to provide a solution in the form of Typescripts. This being our very first full stack development project, we learned a lot about technical skills and socialskills when working in a team.",
+                desc: "Type{Scripts} is a typing game for all developers, new and experienced alike where users are able to see their typing skills when typing code.We noticed that a lot of the typing quizes or games didn't offer developer modes where you can type code instead of randomwords and sentences and sought to provide a solution in the form of Typescripts. ",
                 tech: ["JavaScript", "Handlebars", 'CSS', 'Bootstrap'],
             },
             {
@@ -97,7 +107,7 @@ const content = {
                 img: `${noteGIF}`,
                 git: 'https://github.com/Kam-Mivehchi/Note-Taker',
                 live: 'https://notetaker-km.herokuapp.com/',
-                desc: "Weather Dashboard is a sleek and responsive solution to recive weather information from around the world.This application allows user input(string input or button preset) to change the forecast to reflect their desired location.Weather data is updated dynamically with the use of Open Weather API and JavaScript.",
+                desc: "Mobile-Resonsive Note taking application that integrates with Rest API. This application allows user to create, store and delete application to help increase productivity",
                 tech: ["JavaScript", "HTML", 'CSS'],
             }
         ]

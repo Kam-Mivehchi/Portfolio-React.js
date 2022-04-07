@@ -35,7 +35,7 @@ function App() {
     }
     if (state === 'project') {
       return (
-        <Projects title={` ${theme === 'dark' ? 'text-accentd mb-10' : 'text-black mb-10'}`} pageBackground='' cardBG={` ${theme === 'dark' ? 'bg-tertiaryd' : 'bg-lilac '}`} buttonColor1={` ${theme === 'dark' ? 'bg-light-blue hover:bg-light-blue/50' : 'bg-light-blue hover:bg-light-blue/50 text-black'} font-black`} buttonColor2={` ${theme === 'dark' ? 'bg-accentd hover:bg-accentd/50 ' : 'bg-black hover:bg-black/50 text-white'} font-black`} projTitle={` ${theme === 'dark' ? 'text-accentd' : 'text-white'}`} descColor={` ${theme === 'dark' ? 'text-light-blue font-semibold' : 'text-black font-semibold'}`} />
+        <Projects title={` ${theme === 'dark' ? 'text-accentd my-5' : 'text-black mb-10'}`} pageBackground='' cardBG={` ${theme === 'dark' ? 'bg-tertiaryd' : 'bg-lilac '}`} buttonColor1={` ${theme === 'dark' ? 'bg-light-blue hover:bg-light-blue/50 text-black' : 'bg-light-blue hover:bg-light-blue/50 text-black'} font-black`} buttonColor2={` ${theme === 'dark' ? 'bg-accentd hover:bg-accentd/50 text-black' : 'bg-black hover:bg-black/50 text-white'} font-black`} projTitle={` ${theme === 'dark' ? 'text-accentd' : 'text-white'}`} descColor={` ${theme === 'dark' ? 'text-light-blue font-semibold' : 'text-black font-semibold'}`} />
 
 
       )
@@ -56,6 +56,7 @@ function App() {
 
       )
     }
+
   }
 
   return (
