@@ -1,6 +1,6 @@
 import React from 'react';
 import content from '../content';
-import Button from './button';
+
 import Carousel from './carousel';
 
 function Gallery(props) {
