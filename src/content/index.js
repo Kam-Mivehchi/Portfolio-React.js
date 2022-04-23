@@ -116,32 +116,53 @@ const content = {
         cat1: 'Chemical',
         cat2: 'Programming',
         skills: {
-            programming: ["JavaScript",
-                "MongoDB",
-                "SQL",
-                "HTML",
-                "Node.js",
-                "Progressive Web Development",
-                "Cascading Style Sheets(CSS)",
-                "Adobe Illustrator",
-                "Adobe Photoshop",
+            programming: {
+                front: {
+                    title: "Front-End",
+                    tech: [
 
-            ],
+                        "React.js", "HTML", "TailwindCSS", "CSS", "Photoshop", "Illustrator", "ES6", "React Hooks", "Jest", "Figma"
+                    ]
+                },
+                back: {
+                    title: "Back-End",
+                    tech: [
+
+                        "Jest", "Node.js", "MVC", "Express", " APIs", "OOP", "ORM", "SQL", "NoSQL", "MongoDB", "Sequelize", "Mongoose", "Git", "NPM"
+                    ]
+                }
+            },
+            // [
+            //     "JavaScript",
+            //     "MongoDB",
+            //     "SQL",
+            //     "HTML",
+            //     "Node.js",
+            //     "Progressive Web Development",
+            //     "Cascading Style Sheets(CSS)",
+            //     "Adobe Illustrator",
+            //     "Adobe Photoshop",
+
+            // ],
             chemical: [
                 "ICP/AES",
                 "FTIR/RAMAN",
-                "Research and Development (R&D)",
                 "Quality Control",
                 "Analytical Skills",
-                "Method Development",
                 "Microsoft Suite",
-                "AutoCAD"
-
-
+                "AutoCAD",
+                "Method Development",
+                "Research and Development ",
             ]
 
-
-        }
+        },
+        buttons: [
+            'All',
+            'Software Development',
+            'Front-End',
+            'Back-End',
+            'Chemical'
+        ]
     }
 
 };
