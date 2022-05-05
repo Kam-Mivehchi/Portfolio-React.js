@@ -116,7 +116,8 @@ const content = {
         cat1: 'Chemical',
         cat2: 'Programming',
         skills: {
-            programming: ["JavaScript",
+            programming: [
+                "JavaScript",
                 "MongoDB",
                 "SQL",
                 "HTML",
