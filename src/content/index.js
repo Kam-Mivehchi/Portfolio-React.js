@@ -8,6 +8,7 @@ import workoutGIF from '../assets/WokoutWiz.gif';
 import weatherGIF from '../assets/weatherDash.gif';
 import bangerGIF from '../assets/bangeralert.gif'
 import Type2GIF from '../assets/TypeScripts.gif'
+import CollectURL from '../assets/CollectURL.gif'
 const content = {
     nav: {
         logo: 'Kamyar Mivehchi',
@@ -61,6 +62,15 @@ const content = {
     project: {
         title: 'Projects',
         data: [
+            {
+                //use this desc size as template no longer
+                title: 'CollectURL',
+                img: `${CollectURL}`,
+                git: 'https://github.com/Kam-Mivehchi/CollectURL',
+                live: 'https://lovely-banoffee-8811b7.netlify.app/',
+                desc: "Designed to collect websites and group them together into lists. Inspired by my journey as a software developer, which relies on learning concepts from various sources. ",
+                tech: ['MongoDB', 'Express', "React", "Node.js", 'TailwindCSS', 'CSS', 'Styled-Components', 'Axios'],
+            },
             {
                 //use this desc size as template no longer
                 title: 'TypeScripts 2.0',

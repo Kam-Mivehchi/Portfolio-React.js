@@ -35,13 +35,17 @@ const Carousel = (props) => {
                                         <div className='flex flex-col items-center text-2xl font-extrabold md:flex-row md:justify-between'>
                                             <h1 className={`${props.title}`}>{proj.title}</h1>
                                             <div class="text-sm flex justify-between">
-                                                <button className={`py-1 px-5  rounded-full max-w-full mx-1 my-3  font-bold ${props.buttonColor1}`} href={proj.git} target='_blank'
-                                                    rel="noopener noreferrer">
-                                                    GitHub
+                                                <button className={`py-1 px-5  rounded-full max-w-full mx-1 my-3  font-bold ${props.buttonColor1}`} >
+                                                    <a href={proj.git} target='_blank'
+                                                        rel="noopener noreferrer">
+                                                        GitHub
+                                                    </a>
                                                 </button>
-                                                <button href={proj.live} target='_blank'
-                                                    rel="noopener noreferrer" className={`py-1 px-5  rounded-full max-w-full mx-1 my-3  font-bold ${props.buttonColor2}`} >
-                                                    Live Site
+                                                <button className={`py-1 px-5  rounded-full max-w-full mx-1 my-3  font-bold ${props.buttonColor2}`} >
+                                                    <a href={proj.live} target='_blank'
+                                                        rel="noopener noreferrer">
+                                                        Live Site
+                                                    </a>
                                                 </button>
                                             </div>
                                         </div>
