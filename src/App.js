@@ -17,11 +17,19 @@ function App() {
 
   function renderPage(state) {
     if (state === 'hero' && theme === 'dark') {
-      return (<Hero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue hover:bg-light-blue/50  ' buttonColor2='bg-accentd hover:bg-accentd/50' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
+      return (
+        <>
+          <Hero outlineColor="tertiaryd" nameColor="text-light-blue" buttonColor='bg-light-blue hover:bg-light-blue/50  ' buttonColor2='bg-accentd hover:bg-accentd/50' animateColor='text-accentd' setCurrentPage={setCurrentPage} />
+          <Stack background={`bg-cover ${theme === 'dark' ? 'bg-stacked-wave' : 'bg-stackedLight'}`} textColor={` ${theme === 'dark' ? 'text-accentd' : 'text-primaryl'}`} tileStyle='bg-light-blue text-light-blue' />
+        </>
       )
     }
     if (state === 'hero' && theme === 'light') {
-      return (<Hero outlineColor="tertiaryl" nameColor="text-black" buttonColor='bg-lilac hover:bg-black/50 text-primaryl ' buttonColor2='bg-black hover:bg-lilac/50 text-primaryl' animateColor='text-lilac' setCurrentPage={setCurrentPage} />
+      return (
+        <>
+          <Hero outlineColor="tertiaryl" nameColor="text-black" buttonColor='bg-lilac hover:bg-black/50 text-primaryl ' buttonColor2='bg-black hover:bg-lilac/50 text-primaryl' animateColor='text-lilac' setCurrentPage={setCurrentPage} />
+          <Stack background={`bg-cover ${theme === 'dark' ? 'bg-stacked-wave' : 'bg-stackedLight'}`} textColor={` ${theme === 'dark' ? 'text-accentd' : 'text-primaryl'}`} tileStyle='bg-light-blue text-light-blue' />
+        </>
       )
     }
     if (state === 'about') {
