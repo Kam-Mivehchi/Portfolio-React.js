@@ -1,7 +1,7 @@
 import React from 'react'
 import content from '../content'
 // import { LazyLoadImage } from 'react-lazy-load-image-component';
-import Typical from 'react-typical'
+import { TypeAnimation } from 'react-type-animation'
 import Button from './button';
 // import { Link as ScrollLink } from 'react-scroll'
 
@@ -17,12 +17,14 @@ const Hero = (props) => {
 
 
                     <h2 className={`text-4xl md:text-5xl font-extrabold my-2 ${props.nameColor}`}>{content.header.text}</h2>
-                    <Typical
-                        steps={content.header.typical}
-                        loop={Infinity}
+                    <TypeAnimation
+                        sequence={content.header.typical}
+                        repeat={Infinity}
+                        cursor={true}
                         wrapper="h2"
                         className={`text-4xl font-semibold my-2  ${props.animateColor}`}
                     />
+                    <h2 className={`text-4xl font-semibold my-2  ${props.animateColor} animate-typing text-start`}></h2>
                     <div className='flex'>
 
                         <div onClick={() => props.setCurrentPage('project')}>
